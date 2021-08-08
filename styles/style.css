@@ -1,0 +1,82 @@
+/* top sections */
+.containers{
+    background-color: #2D25A0;
+    width: 100%;
+height: 677px;
+}
+.top-banner img{
+    width: 556px;
+height: 438px;
+padding-top: 135px;
+
+}
+.top-section{
+    display:flex;
+    justify-content: center;
+}
+.title-name{
+    width: 485px;
+height: 230px;
+font-weight: bold;
+font-size: 64px;
+
+}
+.title-icon{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #E02C6D;
+    width: 200px;
+
+    
+}
+.live{
+    
+    padding: 10px 24px;
+}
+.title-name h3{
+    color:#FFFFFF;
+}
+/*----------------------------
+ top players
+--------------------------- */
+.top-players{
+    margin-top: 40px;
+display:grid;
+grid-template-columns: repeat(3,1fr);
+grid-column-gap: 10px;
+justify-content: center;
+padding: 15px;
+background-color: #FFFFFF;
+
+}
+.live{
+   
+    font-weight: 500;
+font-size: 16px;
+padding:5px 23px;
+}
+.players{
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+}
+.player-image img{
+    width: 300px;
+height: 256px;
+}
+player-info{
+    width: 300px;
+height: 154px;
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 15px;
+}
+/* footer sections */
+footer{
+    text-align: center;
+}
+.football{
+    font-size: 70px;
+}
